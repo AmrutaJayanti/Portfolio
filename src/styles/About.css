@@ -1,0 +1,93 @@
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #433e3a;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #433e3a;
+    text-align: center;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #6d6658;
+    text-align: center;
+  }
+  
+  .skills-container {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .skills-container h3 {
+    font-size: 2.5rem;
+    color: #9c7853;
+    margin-bottom: 30px;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  .skill {
+    background: #f5f0e1;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+  }
+  
+  .skill-icon {
+    font-size: 3rem;
+    color: #6d6658;
+    margin-bottom: 15px;
+  }
+  
+  .skill-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #433e3a;
+    margin-bottom: 10px;
+  }
+  
+  .skill-level {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .level-bar {
+    height: 10px;
+    background: #9c7853;
+    border-radius: 5px;
+  }
+  
+  .interests-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .interests-section h3 {
+    font-size: 2rem;
+    color: #9c7853;
+    margin-bottom: 20px;
+  }
+  
+  .interests-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #6d6658;
+  }
+  
